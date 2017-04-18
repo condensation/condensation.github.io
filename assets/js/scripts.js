@@ -1,11 +1,3 @@
-// Fade out homepage hero
-/*
-$(window).scroll(function() {
-  $(".hero-container").css({
-    'opacity': 1 - (($(this).scrollTop()) / 700)
-  });
-});
-*/
 // GSAP Animations
 
 /*
@@ -51,7 +43,6 @@ btn.click(function()
 	$(this).toggleClass('open');
 	  toggleDirection();
 });
-
 
 
 // zoom-vanilla.js - 2.0.3 (https://github.com/spinningarrow/zoom-vanilla.js)
