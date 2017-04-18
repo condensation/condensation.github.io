@@ -1,0 +1,70 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+   <meta charset="UTF-8">
+   <title>Kontakt - Farid Yousif</title>
+   <meta name="description" content="DESCRIPTION">
+   <link rel="stylesheet" href="dist/css/style.min.css">
+
+     <!--[if lt IE 9]>
+       <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+       <![endif]-->
+     </head>
+ <body>
+<div id="hamburger" class="menu-toggle">
+	  <span></span>
+	  <span></span>
+	  <span></span>
+	  <span class="menu-text">Meny</span>
+	</div>
+<div id="menu">
+	<ul>
+		<li><a href="index.html" class="menu-link">Hem</a></li>
+		<li><a href="projekt.html" class="menu-link">Projekt</a></li>
+		<li><a href="kontakt.html" class="menu-link">Kontakt</a></li>
+	</ul>
+</div>
+ 
+
+ <div id="form">
+	 <div class="kontakt">
+	 	<h1 data-text-swap="Tack för ditt meddelande!">Kontakta mig</h1>
+	 </div>
+	<form name="gform" id="gform" action="https://docs.google.com/forms/d/e/1FAIpQLScQ20iFkljz7JmvzFGEiS43OY79g7_eo0uBIyo2W1nMki4M1Q/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
+		  <label for="entry.1770796027">Namn:</label><br>
+		  <input type="text" name="entry.1770796027" id="entry.1770796027" required><br>
+		  <label for="entry.1651110207">Email:</label><br>
+		  <input type="email" name="entry.1651110207" id="entry.1651110207" required><br>
+		  <label for="entry.597534668">Telefon:</label><br>
+		  <input type="number" name="entry.597534668" id="entry.597534668"><br>
+		  <label for="entry.68886285">Meddelande:</label><br>
+		  <textarea name="entry.68886285" id="entry.68886285" required></textarea><br>
+		  <p>   
+		  <input type="submit" value="Skicka">
+		  </p>
+	</form>
+</div>
+
+
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+	<script>var submitted=false;</script>
+	<script>
+	$('#gform').on('submit', function(e) {
+	  $('#gform *').fadeOut(500);
+	  var h1 = $("h1");
+	h1.text(h1.data("text-swap"));
+	  });
+	</script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+
+    <script src="dist/js/scripts.min.js"></script>
+
+ </body>
+
+</html>

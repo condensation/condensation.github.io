@@ -1,91 +1,65 @@
+ <!DOCTYPE html>
+ <html lang="en">
 
-<!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Farid Yousif - Portfolio</title>
-    <link rel="stylesheet" href="assets/css/app.css">
-  </head>
-  <body>
+ <head>
+   <meta charset="UTF-8">
+   <title>Portfolio</title>
+   <meta name="description" content="DESCRIPTION">
+   <link rel="stylesheet" href="dist/css/style.min.css">
 
-    <div class="row header">
-      <div class="large-12 columns text-center">
-        <h1>Hi! I&rsquo;m Farid Yousif <br />
-        Web- & Graphic Designer </h1><br />
-        <h5>Selected works between 2013 - 2016.</h5>
-      </div>
-    </div> 
-    <!-- Websites Grid -->
-      <div class="row small-up-1 medium-up-2 large-up-4">
-          <h3>Websites</h3>
-            <a href="stortorvets-gjestgiveri.html" class="column button" >
-            <img src="assets/img/storgjest-front.jpg" class="thumbnail">
-              <span>Stortorvets Gjæstgiveri</span>
-            </a>
-            <a href="rcontainer.html" class="column button">
-            <img src="assets/img/rcontainer-front.jpg" class="thumbnail">        
-              <span>Rcontainer</span>
-            </a>
-            <a href="wiggen.html" class="column button">
-            <img src="assets/img/wiggen-front.jpg" class="thumbnail">        
-              <span>Wiggen</span>
-            </a>
-            <a href="leads.html" class="column button">
-            <img src="assets/img/leads-front.jpg" class="thumbnail">        
-              <span>Leads AS</span>
-            </a>       
-      </div>
-    
-    <!-- Logos Grid -->
-    
-      <div class="row small-up-1 medium-up-2 large-up-3">
-          <h3>Logos</h3>
-            <!--Storgjest-->
-            <div class="large reveal" id="storgjest-modal" data-reveal>
-            <div class="row text-center">
-            <img src="assets/img/Stortorvets-Gjaestgiveri-Logo-Inline.jpg">
-            </div>
-            <button class="close-button" data-close aria-label="Close modal" type="button">
-            <span aria-hidden="true">&times;</span>
-            </button>
-            </div>
-            <a data-open="storgjest-modal" class="column button">
-            <img src="assets/img/Stortorvets-Gjaestgiveri-Logo-Inline.jpg" class="thumbnail">    
-              <span>Stortorvets Gjæstgiveri</span>
-            </a>
-            <!--Wiggen-->
-            <div class="large reveal" id="wiggen-modal" data-reveal>
-              <div class="row text-center">
-              <img class="orbit-image" src="assets/img/wiggen-profil.jpg" alt="Identity">
-              </div>
-              <button class="close-button" data-close aria-label="Close modal" type="button">
-              <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <a data-open="wiggen-modal" class="column button">
-            <img src="assets/img/WiggenAS-Logo-RGB.png" class="thumbnail">        
-              <span>Wiggen</span>
-            </a>
-            <!--Lium-->
-            <div class="large reveal" id="lium-modal" data-reveal>
-            <div class="row text-center">
-            <img src="assets/img/Lium-Logo.jpg">
-            </div>
-            <button class="close-button" data-close aria-label="Close modal" type="button">
-            <span aria-hidden="true">&times;</span>
-            </button>
-            </div>
-            <a data-open="lium-modal" class="column button">
-            <img src="assets/img/Lium-Logo.jpg" class="thumbnail">      
-              <span>Lium</span>
-            </a>       
-      </div>
-    
-    
-    
+     <!--[if lt IE 9]>
+       <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+       <![endif]-->
+     </head>
 
-    <script src="assets/js/app.js"></script>
+<body>
+<div id="hamburger" class="menu-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span class="menu-text">Meny</span>
+</div>
+<div id="menu">
+  <ul>
+    <li><a href="index.html" class="menu-link">Hem</a></li>
+    <li><a href="projekt.html" class="menu-link">Projekt</a></li>
+    <li><a href="kontakt.html" class="menu-link">Kontakt</a></li>
+    <li><a href="kontakt.html" class="menu-link">Profil</a></li>
+  </ul>
+</div>
+<main id="project-main">
+<nav>
+  
+
+
+</nav>
+  <div class="hero">
+         <div class="hero-container">
+         <img src="assets/img/fayo-logo.png" width="130px">
+         <span>Farid Yousif</span>
+          <div class="par" >
+            <h1>Webb- och grafisk designer baserad i Malmö. Jag kan hjälpa er med:</h1>
+            <ul>
+            <li>Webbdesign</li>
+            <li>Ecommerce</li>
+            <li>Grafisk Design</li>
+            </ul>
+          <a href="kontakt.html" alt="Kontakt"><button>Ta kontakt</button></a>
+          </div>
+        
+        </div>
+
+
+  </div>
+
+
+
+</main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/utils/Draggable.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="dist/js/scripts.min.js"></script>
+
   </body>
-</html>
+
+  </html>
