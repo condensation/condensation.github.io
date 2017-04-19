@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 102 102">
+  <style>
+    .st0{fill:none;stroke:#31526F;stroke-width:1.7309;stroke-miterlimit:10;} .st1{fill:none;stroke:#31526F;stroke-width:2;stroke-miterlimit:10;} .st2{fill:#31526F;} .st3{fill:none;stroke:#31526F;stroke-width:3;stroke-miterlimit:10;}
+  </style>
+  <path id="XMLID_1_" d="M-131 96.3h-90.8c-2.8 0-5-2.2-5-5V.5c0-2.8 2.2-5 5-5h90.8c2.8 0 5 2.2 5 5v90.8c0 2.8-2.3 5-5 5z" class="st0"/>
+  <path id="XMLID_2_" d="M-227 5h101" class="st1"/>
+  <path id="XMLID_4_" d="M-227 51h101" class="st1"/>
+  <path id="XMLID_6_" d="M-219 62h86" class="st1"/>
+  <path id="XMLID_8_" d="M-219 71h40" class="st1"/>
+  <path id="XMLID_9_" d="M-219 80h40" class="st1"/>
+  <path id="XMLID_15_" d="M-173 71h40" class="st1"/>
+  <path id="XMLID_14_" d="M-173 80h40" class="st1"/>
+  <path id="XMLID_10_" d="M-219 88h86" class="st1"/>
+  <circle id="XMLID_7_" cx="-221.7" cy=".6" r="1.4" class="st2"/>
+  <circle id="XMLID_12_" cx="-215.9" cy=".6" r="1.4" class="st2"/>
+  <circle id="XMLID_13_" cx="-210.2" cy=".6" r="1.4" class="st2"/>
+  <g id="XMLID_332_">
+    <g id="XMLID_115_">
+      <path id="XMLID_22_" d="M-176.2 42.8c-8.3 0-15-6.8-15-14.8h1.4c0 7 6.1 13.3 13.6 13.3s13.6-6.2 13.6-13.7-6.1-13.6-13.6-13.6c-3.9 0-7.5 1.5-10 4.4l-1.1-1c2.9-3.2 6.8-4.9 11.1-4.9 8.3 0 15 6.8 15 15.1s-6.7 15.2-15 15.2z" class="st2"/>
+    </g>
+    <g id="XMLID_114_">
+      <path id="XMLID_18_" d="M-176.2 39.6c-6.7 0-12.1-5.4-12.1-12.1 0-6.7 5.4-12.1 12.1-12.1s12.1 5.4 12.1 12.1c0 6.7-5.4 12.1-12.1 12.1zm0-22.7c-5.9 0-10.7 4.8-10.7 10.7s4.8 10.7 10.7 10.7 10.7-4.8 10.7-10.7-4.8-10.7-10.7-10.7z" class="st2"/>
+    </g>
+    <g id="XMLID_113_">
+      <path id="XMLID_17_" d="M-182.8 35.3l-1.1-.9c1.9-2.3 4.8-3.6 7.8-3.6 2.8 0 5.7 1.2 7.5 3.3l-1.1 1c-1.6-1.8-4.1-2.8-6.5-2.8-2.5-.1-5 1-6.6 3z" class="st2"/>
+    </g>
+    <g id="XMLID_112_">
+      <path id="XMLID_16_" d="M-173.67 29l6 6.02-.98 1-6-6.02z" class="st2"/>
+    </g>
+    <g id="XMLID_111_">
+      <path id="XMLID_11_" d="M-185.85 16.77l10.25 10.26-1 1-10.24-10.27z" class="st2"/>
+    </g>
+    <g id="XMLID_110_">
+      <path id="XMLID_5_" d="M-183.6 36.1l-1-1 8.1-8.1s2.9-2.8 4-5.2c1.2-2.6.1-4.4 0-4.4l1.2-.8c.1.1 1.6 2.5 0 5.8-1.2 2.7-4.2 5.5-4.3 5.7l-8 8z" class="st2"/>
+    </g>
+  </g>
+  <circle id="XMLID_3_" cx="51" cy="51" r="50" class="st1"/>
+  <circle id="XMLID_20_" cx="51" cy="51" r="44" class="st3"/>
+  <g id="XMLID_206_">
+    <path id="XMLID_207_" d="M52.2 65.2v4.5h-1.8v-4.4c-3.8-.2-6.3-1.4-8.8-3.9l1.6-1.6c2.4 2.4 4.3 3.2 7.2 3.4V51.1l-.7-.1c-2.1-.3-4.1-1.2-5.2-2.1-1.5-1.3-2.3-3.1-2.3-5.4 0-4.6 3.1-7.6 8.2-8V32h1.8v3.6c3.1.2 5.2 1.1 7.5 3.1l-1.4 1.4c-1.6-1.4-3.2-2.5-6-2.7v11.9l1.2.2c2.7.5 4 .9 5.2 1.9 1.6 1.3 2.5 3.3 2.5 5.7-.1 4.8-3.4 7.8-9 8.1zm-7.8-21.7c0 1.7.5 3 1.5 3.8 1.3 1.1 3 1.6 4.5 1.8V37.5c-3.8.3-6 2.5-6 6zm12.9 9.7c-1.6-1.4-3.2-1.4-5.1-1.7v11.8c4.1-.3 6.7-2.4 6.7-6 0-1.8-.5-3.2-1.6-4.1z" class="st2"/>
+  </g>
+  <g id="XMLID_27_">
+    <path id="XMLID_24_" d="M213.3 90.6l-24.7 10.2 7.1-25.8 61-68.7c1.8-2.1 5-2.3 7.1-.4l10.1 9c2.1 1.8 2.3 5 .4 7.1l-61 68.6z" class="st1"/>
+    <path id="XMLID_26_" d="M192.3 89.4l7.5 6.6-11.2 4.8z" class="st2"/>
+    <path id="XMLID_25_" d="M195.7 75.1l6.4-.7-.2 6.2 5.9-1.1-.5 5.9 6.4-.7-.5 6" class="st1"/>
+    <path id="XMLID_29_" d="M208 79.2l61.1-68.8" class="st1"/>
+    <path id="XMLID_30_" d="M214 84.5l61.1-68.8" class="st1"/>
+    <path id="XMLID_28_" d="M201.4 74.7l61.7-69.6" class="st1"/>
+  </g>
+</svg>
