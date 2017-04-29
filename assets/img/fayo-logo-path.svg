@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 110 110.1" style="enable-background:new 0 0 110 110.1;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;stroke:#31526F;stroke-width:5;stroke-miterlimit:10;}
-</style>
-<g id="XMLID_332_">
-	<path id="XMLID_115_" class="st0" d="M18,21.4C27.1,11.3,40.3,5,55,5c27.6,0,50,22.4,50,50s-22.4,50-50,50S5,82.6,5,55"/>
-	<circle id="XMLID_114_" class="st0" cx="55" cy="55" r="39.8"/>
-	<path id="XMLID_113_" class="st0" d="M79.8,79.5c-6-6.5-15-10.7-24.6-10.7C45,68.9,36,73.5,29.9,80.7"/>
-	<line id="XMLID_112_" class="st0" x1="62.2" y1="61.9" x2="83.1" y2="82.9"/>
-	<line id="XMLID_111_" class="st0" x1="19.5" y1="19.2" x2="55.4" y2="55.2"/>
-	<path id="XMLID_110_" class="st0" d="M70.1,18c0,0,4.8,7.5,0,18C65.9,45,55.5,55,55.5,55L27.3,83.2"/>
-</g>
-</svg>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 110.1"><style>.st0{fill:none;stroke:#31526f;stroke-width:5;stroke-miterlimit:10}</style><g id="XMLID_332_"><path id="XMLID_115_" class="st0" d="M18 21.4C27.1 11.3 40.3 5 55 5c27.6 0 50 22.4 50 50s-22.4 50-50 50S5 82.6 5 55"/><circle id="XMLID_114_" class="st0" cx="55" cy="55" r="39.8"/><path id="XMLID_113_" class="st0" d="M79.8 79.5c-6-6.5-15-10.7-24.6-10.7-10.2.1-19.2 4.7-25.3 11.9"/><path id="XMLID_112_" class="st0" d="M62.2 61.9l20.9 21"/><path id="XMLID_111_" class="st0" d="M19.5 19.2l35.9 36"/><path id="XMLID_110_" class="st0" d="M70.1 18s4.8 7.5 0 18c-4.2 9-14.6 19-14.6 19L27.3 83.2"/></g></svg>
