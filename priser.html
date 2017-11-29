@@ -134,16 +134,24 @@
           				<label for="entry.516552685">Rabattkod</label><br>
           				<input type="text" name="entry.516552685" id="entry.516552685"><br>
           				<label for="entry.1739102762">Hemsida (valfritt)</label><br>
-          				<input type="text" name="entry.1739102762" id="entry.1739102762"><br>				
-          				<label for="entry.1575817407">Paket</label>
-          				<select name="entry.1575817407" id="entry.1575817407" required> <!--Supplement an id here instead of using 'name'-->
-          					<option value="entry.1575817407">Välj paket</option>
-          					<option value="entry.1575817407">Mini</option> 
-          					<option value="entry.1575817407">Lilla</option> 
-          					<option value="entry.1575817407">Mellan</option>
-          					<option value="entry.1575817407">Stora</option>
-          					<option value="entry.1575817407">Special</option>
-          				</select>	
+          				<input type="text" name="entry.1739102762" id="entry.1739102762"><br>
+          
+          				<p>Paket</p>
+          				<input type="radio" value="Mini" name="entry.1851171952" id="Mini">
+          				<label for="Mini">Mini</label><br>
+          
+          				<input type="radio" value="Lilla" name="entry.1851171952" id="Lilla">
+          				<label for="Lilla">Lilla</label><br>
+          
+          				<input type="radio" value="Mellan" name="entry.1851171952" id="Mellan">
+          				<label for="Mellan">Mellan</label><br>
+          
+          				<input type="radio" value="Stora" name="entry.1851171952" id="Stora">
+          				<label for="Stora">Stora</label><br>
+          
+          				<input type="radio" value="Special" name="entry.1851171952" id="Special">
+          				<label for="Special">Special</label><br>
+          
           			</div>  	
           			<div class="cell large-3">
           				<label for="entry.1770796027">Namn:</label><br>
@@ -152,7 +160,6 @@
           				<input type="email" name="entry.1651110207" id="entry.1651110207" required><br>
           				<label for="entry.597534668">Telefon:</label><br>
           				<input type="tel" name="entry.597534668" id="entry.597534668"><br>
-          
           				<label for="entry.68886285">Meddelande:</label><br>
           				<textarea name="entry.68886285" id="entry.68886285" required></textarea><br>
           				<p>   
@@ -174,7 +181,9 @@
           					  var h1 = $("h1");
           					h1.text(h1.data("text-swap"));
           					  });
-          					</script>	</main>
+          					</script>
+          
+    	</main>
     </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
