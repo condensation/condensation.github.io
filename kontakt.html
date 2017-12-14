@@ -87,7 +87,7 @@
     
     	<script>var submitted=false;</script>
     	<script>
-    	$('#gform').on('submit', function(e) {
+    		var submit= $('#gform').on('submit', function(e) {
     	  $('#gform *').fadeOut(500);
     	  var h1 = $("h1");
     	h1.text(h1.data("text-swap"));
