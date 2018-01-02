@@ -30,13 +30,13 @@
     		    <span></span>
     		    <span></span>
     		</div>
-    		<div id="menu">
+    		<nav id="menu">
     		  <ul class="menu vertical">
     		    <li><a href="/" class="menu-link">Hem</a></li>
     		    <li><a href="projekt" class="menu-link">Projekt</a></li>
     		    <li><a href="kontakt" class="menu-link">Kontakt</a></li>
     		  </ul>
-    		</div>    <div id="main-content" class="grid-container full">
+    		</nav>    <main id="main-content" class="grid-container full">
     <header class="main-header grid-x grid-padding-x">
       <div id="logo" class="cell large-shrink xlarge-7">
         <a href="/">
@@ -57,12 +57,12 @@
         </ul>
       </nav>
     </header>
-    <div class="grid-container full ">    <!-- Projekt landing page -->
+    <section class="grid-container full ">    <!-- Projekt landing page -->
     <div class="grid-x align-center">
-    	<div class="cell small-12 large-10 project-container">
+    	<article class="cell small-12 large-10 project-container">
           <!-- Projekt Container -->
-          <div class="grid-container fluid project-container">
-          	<div class="grid-x grid-margin-x grid-padding-x grid small-up-1 medium-up-2 large-up-3">
+          <section class="grid-container fluid project-container">
+          	<div class="grid-x grid-margin-x grid-padding-x grid small-up-1 medium-up-2 large-up-3">		
           		<!-- Projekt item -->   	
           		<a href="textologen" class="cell grid-y project-grid">
           			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 313.3 80" width="200" role="img" aria-label="Projekt - Textologen">
@@ -113,6 +113,10 @@
           			</svg>
           		</a>
           		<!-- Projekt item -->   	
+          		<a href="unity" class="cell grid-y project-grid">
+          			<img src="assets/img/unity-logo-black-rgb.svg" width="200">	
+          		</a>		
+          		<!-- Projekt item -->   	
           		<a href="stortorvets-gjestgiveri" class="cell grid-y project-grid">			
           			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 138.1"  width="200" role="img" aria-label="Projekt — Stortorvets Gjæstgiveri">
           			<title>Projekt — Stortorvets Gjæstgiveri</title>
@@ -146,10 +150,9 @@
           			</svg>
           		</a>		
           	</div>
-          </div>
-    	</div>
+          </section>
+    	</article>
     </div>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/plugins/ScrollToPlugin.min.js"></script>
     <script src="assets/js/app.js"></script>
